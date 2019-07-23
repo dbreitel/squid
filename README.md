@@ -8,7 +8,7 @@ This repo consists of a Dockerfile which is a container image for Squid proxy se
 
 ## Contents
 
-This repo consists of a `Dockerfile`(Dockerfile) which is the main image. An `entrypoint.sh`(entrypoint.sh) which acts as how the container will run. A `docker-compose.yml`(docker-compose.yml) file if you want to run the server as a service.
+This repo consists of a `Dockerfile` which is the main image. An `entrypoint.sh` which acts as how the container will run. A `docker-compose.yml` file if you want to run the server as a service.
 
 We will preserve the cache of the squid container at `/var/spool/squid`.
 
