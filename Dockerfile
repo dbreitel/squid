@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 LABEL maintainer="Mithil.Patel@dell.com"
 
 ENV SQUID_VERSION=3.5.12-1ubuntu7.8
